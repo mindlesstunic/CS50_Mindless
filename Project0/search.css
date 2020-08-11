@@ -1,0 +1,108 @@
+div{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding: 5px;
+    color: rgb(70, 69, 69);
+}
+
+label{
+    color: rgb(70, 69, 69);
+}
+table{
+    padding: 20px;
+}
+td{
+    width: 200px;
+    padding: 10px;
+}
+
+img{
+    height: 92px;
+    width: 272px;
+    position: relative;
+}
+
+#title{
+    padding: 10px;;
+    background-color: rgb(241, 238, 238);
+}
+#img_title{
+    height: 30px;
+    width: 90px;
+
+}
+#advanced{
+    border-bottom: 1px solid #ebebeb;
+    color: rgb(194, 9, 9);
+    padding:10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: large;
+
+}
+#links{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#Google{
+    text-align: center;
+    margin-top: 15%;
+    
+}
+#search{
+    border-radius: 15px;
+    border: 1px solid #d0d0d0;
+    width: 40%;
+    height: 30px;
+    margin-top: 25px;
+}
+#img_logo{
+    margin-left: 230px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: blue;
+    font-size: large;
+}
+#button_as{
+    background-color: rgb(62, 128, 252);
+    color: white;
+    border: none;
+    width: 10em;  
+    height: 3em;
+}
+#button_as:hover{
+    cursor: pointer;
+    border: 1px solid #d0d0d0;
+
+}
+#blue_button{
+    margin-left: 920px;
+    padding: 0px;
+}
+
+.input_text{
+    width: 1000px;
+
+}
+.advanced_search{
+    width: 800px;
+}
+.button {
+    background-color: #e7e7e780;
+    color: gray;
+    border: none;
+    width: 10em;  
+    height: 3em;
+    margin: 5px;
+    margin-top: 25px;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+      background-color: #e7e7e7;
+      cursor: pointer;
+      color: black;
+      border: 1px solid #d0d0d0;
+    }

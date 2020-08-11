@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Advance_Search</title>
+<link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <div id = "title">
+    <img id = "img_title"src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="GOOGLE">
+    </div>
+    <div id="links">
+    <a href="index.html">Google</a>
+    </div>
+    <div id = "advanced" >
+    <span >Advanced Search</span>
+    </div>
+    <div>
+        <span>Find pages with...</span>
+        <br>
+        <br>
+    </div>
+    <form action="https://www.google.com/search">
+        <table>
+            <tr>
+                <td><label> all these words: </label></td>
+                <td class ="input_text"><input class="advanced_search" type="text" name ="as_q"></td>
+            </tr>
+            <tr>
+                <td><label> this exact word or phrase: </label></td>
+                <td class ="input_text"><input class="advanced_search" type="text" name ="as_epq"></td>
+            </tr>
+            <tr>
+                <td><label> any of these words: </label></td>
+                <td class ="input_text"><input class="advanced_search" type="text" name ="as_oq"></td>
+            </tr>
+            <tr>
+                <td><label> none of these words: </label></td>
+                <td class ="input_text"><input class="advanced_search" type="text" name ="as_eq"></td>
+            </tr>
+        </table>
+        <div id="blue_button">
+        <input type="submit" id="button_as" value="Advanced Search">
+    </div>
+    </form>  
+</body>
+</html>
